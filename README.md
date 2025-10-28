@@ -6,8 +6,8 @@ CDDIDSLL是一个基于 MOA (Massive Online Analysis) 框架的概念漂移检�
 📂 依赖环境:  
 主要依赖  
 Java 8+  
-MOA (Massive Online Analysis): https://moa.cms.waikato.ac.nz/  
-数据格式：.arff 文件  
+MOA (Massive Online Analysis):https://moa.cms.waikato.ac.nz/  
+数据格式：.arff文件  
 使用的分类器  
 默认：NaiveBayes  
 （可以切换为 HoeffdingTree 等 MOA 提供的流式分类器  this.learner = new HoeffdingTree();）  
